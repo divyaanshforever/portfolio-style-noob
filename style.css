@@ -1,0 +1,220 @@
+body{
+    /* color: rgb(245, 222, 222);
+    height: auto;
+    margin: 25px;
+    width:90vw;
+    background-color: #000;
+    background-image: 
+        radial-gradient(at 30% 80%, rgba(0, 255, 255, 0.25), transparent 50%),
+        radial-gradient(at 70% 90%, rgba(255, 0, 255, 0.25), transparent 50%),
+        radial-gradient(at 50% 100%, rgba(255, 255, 0, 0.2), transparent 60%);
+    background-size:cover; */
+    background-color: #353535;
+    color: #e8e8e8;
+    font-family: 'SF Pro Display', sans-serif;
+    height:130vh;
+
+}
+
+header{
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 500;
+    font-size: 1.4em;
+    height:5vh;
+    letter-spacing: 0.8px;
+    margin-bottom:2vh;
+
+}
+
+
+.hero-section{
+    height:70vh;
+    border: 2 px solid #B3B3B3;
+    margin-top: -8vh;
+    box-sizing: border-box;
+}
+
+.name-title{
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size:7em;
+    letter-spacing: 0.03em;
+}
+
+.work-title{
+    margin-top:-8vh;
+    color:#B3B3B3;
+    font-family: 'Hack', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    text-align: center;
+    font-size:3.5em;
+}
+
+.descr{
+    margin-top: -1vh;
+    font-family: "Hack", sans-serif;
+    text-align: center;
+    font-size: 2.1em;
+    color:#353535;
+}
+
+.heading{
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 800;
+    font-size: 3em;
+    color:#B3B3B3;
+}
+
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    gap: 2vw;
+}
+
+.gh-logo{
+    margin-top: 4vh;
+    margin-left: 2vw;
+}
+hr{
+    width: 100vw;               /* 100% of viewport width */
+    margin: 0;
+    padding-right: 15vw;
+
+}
+
+
+button{
+    background-color: #313131;
+    border-radius: 10px;
+    padding: 1vh;
+    color: #e8e8e8;
+    stroke: white;
+    stroke-width: 2px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    border: oldlace;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.about-list, .skills-list{
+    font-family: "Hack", sans-serif;
+    font-size: 1.7em;
+    word-spacing: 0.1vw;
+    line-height: 1.8;
+}
+.about-section{
+    height: 50vh;
+}
+.get-in-touch-descr{
+    font-family: SF Pro Display, sans-serif;
+    font-weight: 400;
+    margin-top:-3vh;
+    margin-left:1vw;
+    font-size: 1.2em;
+}
+
+.contact-form{
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+#name, #email{
+    width: 30vw;
+    height: 4vh;
+    background-color: #313131;
+    border-radius: 15px;
+    padding: 1vh;
+    color: #e8e8e8;
+    stroke: white;
+    stroke-width: 2px;
+    font-family: 'Hack', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    border: oldlace;
+    border-width: 4px;
+    border-style: solid;
+}
+
+#message{
+    width: 35vw;
+    height: 10vh;
+    background-color: #313131;
+    border-radius: 20px;
+    padding: 1vh;
+    color: #e8e8e8;
+    stroke: white;
+    stroke-width: 5px;
+    font-family: 'Hack', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    border: oldlace;
+    border-width: 4px;
+    border-style: solid;
+}
+
+
+#name:focus, #email:focus, #message:focus{
+    outline: none;
+    border-color: #e8e8e8;
+}
+#name::placeholder, #email::placeholder, #message::placeholder{
+    color: #B3B3B3;
+}
+
+.send{
+    margin-top:3vh;
+    border: oldlace;
+    border-width: 4px;
+    border-style: solid;
+
+}
+footer {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 900;
+    color: #B3B3B3;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 20vh;
+    padding-bottom: 2vh;
+}
+
+.sc-heading{
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 900;
+    font-size: 1.9em;
+    color:#bebebe;
+    text-align: center;
+    padding-bottom: 5vh;
+    text-transform: uppercase;
+}
+
+.socials{
+    font-family: "Hack", sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    color:#B3B3B3;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: -2vh
+}
+
+.socials a{
+    text-decoration: none;
+    color: #B3B3B3;
+}
+
+.socials a:hover{
+    color: #e8e8e8;
+}
